@@ -1,0 +1,9 @@
+#header {
+    background-color: beige;
+    height: 100px;
+}
+
+#contents {
+    background-color: rgba(205, 242, 255, 0.668);
+    height: 800px;
+}

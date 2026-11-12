@@ -1,0 +1,14 @@
+#header {
+    background-color: #ffc3ef;
+    height: 100px;
+}
+
+#content {
+    background-color: #ffffff;
+    height: 400px;
+}
+
+#footer {
+    background-color: #b8e0ff;
+    height:  100px;
+}
