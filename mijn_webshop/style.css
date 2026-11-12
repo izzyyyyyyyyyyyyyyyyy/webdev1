@@ -1,9 +1,59 @@
 #header {
     background-color: beige;
-    height: 100px;
+    height: 60px;
 }
 
 #contents {
     background-color: rgba(205, 242, 255, 0.668);
-    height: 800px;
+    height: 1000px;
+}
+
+#row1 {
+    display: flex;
+    align-items: center;
+    gap: 250px;
+}
+
+#row2 {
+    display: flex;
+    align-items: center;
+    gap: 250px;
+}
+
+
+#row1-text {
+    display: flex;
+    align-items: center;
+    gap: 350px;
+}
+
+#row2-text {
+    display: flex;
+    align-items: center;
+    gap: 350px;
+}
+
+#row1-headers {
+    display: flex;
+    align-items: center;
+    gap: 230px;
+}
+
+#row2-headers {
+    display: flex;
+    align-items: center;
+    gap: 230px;
+}
+
+#formulier {
+    display: flex;
+    align-items: flex-start;
+    height: 300px;
+    width: 1300px;
+}
+
+#onder-elkaar {
+    display: table-column;
+    height: 300px;
+    width: 1000px;
 }
