@@ -1,59 +1,56 @@
 #header {
+    display: flex;
     background-color: beige;
-    height: 60px;
-}
-
-#contents {
-    background-color: rgba(205, 242, 255, 0.668);
-    height: 1000px;
-}
-
-#row1 {
-    display: flex;
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+    font-size: x-large;
+    height: 70px;
+    justify-content: center;
     align-items: center;
-    gap: 250px;
+}
+.products {
+    display: flex;
+    background-color: rgb(196, 255, 235);
+    flex-wrap: wrap;
 }
 
-#row2 {
+.product {
     display: flex;
+    border: 3px solid rgb(255, 238, 0);
+    border-width: 3px;
+    border-radius: 3%;
+    flex-direction: column;
+    width: 350px;
+    height: 480px;
     align-items: center;
-    gap: 250px;
+    margin: 10px;
+    background-color: aliceblue;
 }
 
+.product > a {
+    background-color: crimson;
+    text-align: center;
+    font-size: xx-large;
+    width: 200px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(255, 0, 255) 2px 2px;
+    border: 3px solid rgb(255, 101, 132);
+}
 
-#row1-text {
+.product > a:hover {
+    background-color: rgb(255, 145, 216);
+    text-shadow: rgb(255, 230, 0) 2px 2px;
+}
+
+.details {
     display: flex;
-    align-items: center;
-    gap: 350px;
-}
+    background-color: bisque;
 
-#row2-text {
-    display: flex;
-    align-items: center;
-    gap: 350px;
+    gap: 12px;
+    padding: 12px;
 }
-
-#row1-headers {
-    display: flex;
-    align-items: center;
-    gap: 230px;
-}
-
-#row2-headers {
-    display: flex;
-    align-items: center;
-    gap: 230px;
-}
-
-#formulier {
-    display: flex;
-    align-items: flex-start;
-    height: 300px;
-    width: 1300px;
-}
-
-#onder-elkaar {
-    display: table-column;
-    height: 300px;
-    width: 1000px;
+.details > h1 {
+    font-size: xx-large;
 }
