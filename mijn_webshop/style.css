@@ -1,13 +1,14 @@
-#header {
+.header {
     display: flex;
     background-color: beige;
     position: sticky;
     overflow: hidden;
     top: 0;
     font-size: x-large;
-    height: 70px;
+    height: 200px;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
 }
 .products {
     display: flex;

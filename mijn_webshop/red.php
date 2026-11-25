@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fanta</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <div id="header">
-        <h1>FrisFruit - koop frisdrank</h1>
-    </div>
+<?php include "includes/header.php"; ?>
     <div class="background">
         <div class="details">
             <img src="images/big-red1.png" width="170px" height="300px">
@@ -21,6 +8,4 @@
             </div>
         </div>
     </div>
-</body>
-
-</html>
+<?php include "includes/footer.php"; ?>
