@@ -9,7 +9,6 @@
 
 <body>
     <!-- header -->
-    <div id="header">
+    <div class="header">
         <h1>FrisFruit - koop frisdrank</h1>
-        <h2>acties</h2>
     </div>
